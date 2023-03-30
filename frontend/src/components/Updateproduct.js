@@ -11,7 +11,7 @@ const Updateproduct = () => {
     useEffect(() => {
         // console.log(params);
         getProductDetails();
-    })
+    },[])
 
 
     const getProductDetails = async () => {
